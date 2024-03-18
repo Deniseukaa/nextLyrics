@@ -35,8 +35,8 @@ const LyricsForm: FC<FormProps> = ({ handleSubmit }) => {
 	return (
 		<div className='flex flex-col pt-12 gap-12 justify-normal lg:justify-center'>
 			<h2 className='text-2xl font-bold text-center'>
-				ENTER YOUR ARTIST <span className='gradient-text'>NAME</span> AND SONG{' '}
-				<span className='gradient-text'>TITLE</span>
+				ENTER YOUR ARTIST <span className='gradient-text'>NAME</span> OR JUST
+				THE SONG <span className='gradient-text'>TITLE</span>
 			</h2>
 			<form onSubmit={onSubmit} className='flex flex-col w-full gap-12'>
 				<div>
